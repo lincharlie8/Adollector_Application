@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:weightSum="1" 
+    android:background="#FFFFFF">
+
+	<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     android:layout_marginRight="10dp"
+     android:layout_marginLeft="10dp"
+     android:layout_marginTop="10dp"
+     android:id="@+id/coupontitle">
+    
+    <TextView 
+       
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:textColor="#000000"
+        android:gravity="center"
+        />
+    <TextView 
+        android:id="@+id/couponinfotxt"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="Coupon Code"
+        android:textColor="#000000"
+        android:gravity="center"
+        />
+    <TextView 
+         android:id="@+id/coupondatetxt"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Deadline"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+</LinearLayout>
+
+        <ListView 
+            android:id="@+id/couponlist_Listview"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_margin="10dp"
+    	      android:divider="#808080"
+  			android:dividerHeight="1.0sp"
+  			android:layout_below="@id/coupontitle"
+            ></ListView>
+
+		
+   		
+	 <LinearLayout
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="horizontal"
+	     android:layout_below="@id/couponlist_Listview"
+	     >
+        
+        <Button
+             android:layout_width="0dp"
+    		android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+    		android:text="OK"
+    		android:layout_weight="0.1"
+    		android:id="@+id/couponlistOK"
+    		android:background="#0ABAB5"
+    		android:layout_margin="5dp"
+            ></Button>
+    </LinearLayout>
+</RelativeLayout>

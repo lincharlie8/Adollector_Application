@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Price_interval">
+        <item>$1</item>
+        <item>$199</item>
+        <item>$499</item>
+        <item>$999</item>
+        <item>$2999</item>
+        <item>$4999</item>
+        <item>$9999</item>
+    </string-array>
+    
+    <string-array name="Price_Upper">
+        <item>$199</item>
+        <item>$499</item>
+        <item>$999</item>
+        <item>$2999</item>
+        <item>$4999</item>
+        <item>$9999</item>
+        <item>unlimited</item>
+    </string-array>
+
+    <array name="price_images">
+	    <item>@drawable/cost1</item>
+	    <item>@drawable/cost2</item>
+	    <item>@drawable/cost3</item>
+	    <item>@drawable/cost4</item>
+	    <item>@drawable/cost5</item>
+	    <item>@drawable/cost6</item>
+	    <item>@drawable/cost7</item>
+	</array>
+	<integer name="PriceSum">7</integer>
+</resources>

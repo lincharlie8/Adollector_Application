@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="catalogName">
+		<item>Man</item>
+		<item>Woman</item>
+		<item>Child</item>
+		
+	</string-array>
+	<array name="catalog_images">
+		<item>@drawable/sex1</item>
+		<item>@drawable/sex2</item>
+		<item>@drawable/sex3</item>
+	</array>
+	<integer name="catalogSum">3</integer>
+</resources>

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808080"
+    android:orientation="vertical">	
+    <ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1" >
+
+		<TableLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="#808080"
+		    android:gravity="center_horizontal"
+		    android:padding="10dp" >
+    
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:text="性別"
+		        android:textSize="20dp"/>
+		    
+		    <TableRow 
+		        android:layout_width="match_parent"
+		        android:layout_height="40dp"
+		        android:weightSum="5">
+        
+		         <ImageView
+		            android:id="@+id/Sex_All"
+		        	android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/all"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/MAN"
+		        	android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		            android:src="@drawable/man_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/WOMAN"
+		        	android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		            android:src="@drawable/woman_g"
+		        	android:padding="8dp"/>
+		        
+		         <ImageView
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:padding="8dp"/>
+		        
+		         <ImageView
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:padding="8dp"/>         
+		    </TableRow>
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="分類"
+		        android:textSize="20dp" />
+		    
+		     <TableRow  
+		         	android:layout_width="match_parent"
+		           android:layout_height="40dp"
+		           android:weightSum="5"  >
+		
+		        <ImageView
+		            android:id="@+id/ClothKind_All"
+		        	android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/all"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/ClothKind1"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/shirticon_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/ClothKind2"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/pants_g"
+		        	android:padding="8dp"/>
+		        
+		       <ImageView
+		            android:id="@+id/ClothKind3"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/dress_g"
+		        	android:padding="8dp"/>
+		        
+		         <ImageView
+		            android:id="@+id/ClothKind4"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/accessory_g"
+		        	android:padding="8dp"/>
+		   </TableRow>
+   
+		   <TableRow
+		           android:layout_width="match_parent"
+		           android:layout_height="40dp"
+		           android:weightSum="5" >    
+		           
+		        <ImageView
+		            android:id="@+id/ClothKind5"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/shoes_g"
+		        	android:padding="8dp"/>
+		        
+		       <ImageView
+		            android:id="@+id/ClothKind6"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/bag_g"
+		        	android:padding="8dp"/>
+		         
+		         <ImageView
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:padding="8dp"/>
+		        <ImageView
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	 android:padding="8dp"/>
+		       <ImageView
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:padding="8dp"/>      
+		    </TableRow>
+		    
+		     <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="顏色"
+		        android:textSize="20dp" />
+		      
+		       <TableRow
+		           android:layout_width="match_parent"
+		           android:layout_height="40dp"
+		           android:weightSum="5" >
+		
+		        <ImageView
+		            android:id="@+id/Color_All"
+		        	android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/all"
+		        	android:padding="8dp"/>
+		        
+		          <ImageView
+		             android:id="@+id/Color1"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/red_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		             android:id="@+id/Color2"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/orange_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/Color3"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/yellow_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/Color4"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/green_g"
+		        	android:padding="8dp"/>
+		        </TableRow>
+		        
+		        <TableRow
+		           android:layout_width="match_parent"
+		           android:layout_height="40dp"
+		           android:weightSum="5" >
+		
+		        <ImageView
+		            android:id="@+id/Color5"
+		        	android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/blue_g"
+		        	android:padding="8dp"/>
+		        
+		          <ImageView
+		             android:id="@+id/Color6"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/purple_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		             android:id="@+id/Color7"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/black_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/Color8"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/white_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/Color9"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/gray_g"
+		        	android:padding="8dp"/>
+		        </TableRow>
+		        
+		         <TableRow 
+		        android:layout_width="match_parent"
+		        android:layout_height="40dp"
+		        android:weightSum="5">
+        
+		         <ImageView
+		            android:id="@+id/Color10"
+		        	android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/brown_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/Color11"
+		        	android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		            android:src="@drawable/colorful_g"
+		        	android:padding="8dp"/>
+		        
+		       <ImageView
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:padding="8dp"/>
+		        
+		         <ImageView
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:padding="8dp"/>
+		        
+		         <ImageView
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:padding="8dp"/>         
+		    </TableRow>
+		    
+		     <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="品牌"
+		        android:textSize="20dp" />
+		      
+		       <TableRow
+		           android:layout_width="match_parent"
+		           android:layout_height="40dp"
+		           android:weightSum="5" >
+		
+		        <ImageView
+		            android:id="@+id/Brand_All"
+		        	android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/all"
+		        	android:padding="8dp"/>
+		        
+		          <ImageView
+		             android:id="@+id/Brand1"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/adidas_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		             android:id="@+id/Brand2"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/armani_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/Brand3"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/asos_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/Brand4"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/boss_g"
+		        	android:padding="8dp"/>
+		        </TableRow>
+		        
+		       <TableRow
+		           android:layout_width="match_parent"
+		           android:layout_height="40dp"
+		           android:weightSum="5" >
+		
+		        <ImageView
+		            android:id="@+id/Brand5"
+		        	android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/calvinklein_g"
+		        	android:padding="8dp"/>
+		        
+		          <ImageView
+		             android:id="@+id/Brand6"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/diesel_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		             android:id="@+id/Brand7"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/gap_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/Brand8"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/gu_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/Brand9"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/hm_g"
+		        	android:padding="8dp"/>
+		      </TableRow>
+		      
+		       <TableRow
+		           android:layout_width="match_parent"
+		           android:layout_height="40dp"
+		           android:weightSum="5" >
+		
+		        <ImageView
+		            android:id="@+id/Brand10"
+		        	android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/hollister"
+		        	android:padding="8dp"/>
+		        
+		          <ImageView
+		             android:id="@+id/Brand11"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/levis_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		             android:id="@+id/Brand12"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/newbalance_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/Brand13"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/nike_g"
+		        	android:padding="8dp"/>
+		        
+		        <ImageView
+		            android:id="@+id/Brand14"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/stussy_g"
+		        	android:padding="8dp"/>
+		      </TableRow>
+		      
+		      <TableRow
+		           android:layout_width="match_parent"
+		           android:layout_height="40dp"
+		           android:weightSum="5" >    
+		           
+		        <ImageView
+		            android:id="@+id/Brand15"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/superdry_g"
+		        	android:padding="8dp"/>
+		        
+		       <ImageView
+		            android:id="@+id/Brand16"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/uniqlo_g"
+		        	android:padding="8dp"/>
+		       
+		       <ImageView
+		            android:id="@+id/Brand17"
+		            android:adjustViewBounds="true"
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:src="@drawable/zara_g"
+		        	android:padding="8dp"/>
+		         
+		        <ImageView
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	 android:padding="8dp"/>
+		       <ImageView
+		        	android:layout_weight="1"
+		        	android:layout_height="wrap_content"
+		        	android:padding="8dp"/>      
+		    </TableRow>
+		    
+		     <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="價格"
+		        android:textSize="20dp" />
+		     
+		    <TableRow
+		           android:layout_width="match_parent"
+		           android:layout_height="40dp"
+		           android:weightSum="3" 
+		           android:layout_marginBottom="10dp">
+		
+		       <Spinner
+		           android:id="@+id/SpinerLowerPrice"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:entries="@array/Price_interval"
+		           android:layout_weight="1"/>
+		       
+		       <TextView 
+		           android:layout_width="wrap_content"
+		
+		           android:gravity="center"
+		           android:layout_weight="1"
+		           android:text="~"
+		           android:textSize="20dp"/>
+		       
+		       <Spinner 
+		           android:id="@+id/SpinerUpperPrice"
+		           android:layout_width="wrap_content"
+		          	android:layout_height="wrap_content"
+		          	android:layout_weight="1"/>
+		      </TableRow>
+		</TableLayout>
+	</ScrollView>
+   
+	<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.1" 
+	    android:layout_marginTop="5dp"
+	    android:layout_marginBottom="5dp">
+     	<TableRow
+	           android:layout_width="match_parent"
+	           android:layout_height="40dp"
+	           android:weightSum="3" >
+		    <Button
+		        android:id="@+id/btnCancel"
+		        android:layout_width="wrap_content"
+		        android:layout_weight="1"
+		        android:text="取消"/>  
+		        
+		    <Button
+		        android:id="@+id/btnClear"
+		        android:layout_width="wrap_content"
+		        android:layout_weight="1"
+		        android:text="重置"/>
+		        
+		    <Button
+		        android:id="@+id/btnOK"
+		        android:layout_width="wrap_content"
+		        android:layout_weight="1"
+		        android:text="確定"/>  
+		  </TableRow>
+	</TableLayout> 	
+ </LinearLayout>

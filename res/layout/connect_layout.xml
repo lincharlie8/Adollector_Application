@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:weightSum="1" 
+    android:background="#FFFFFF">
+
+
+        
+        <ListView 
+            android:id="@+id/upload_Listview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+    	      android:divider="#808080"
+  			android:dividerHeight="1.0sp"
+            ></ListView>
+
+		<TextView
+            android:layout_width="match_parent"
+		    android:layout_height="30dp"
+			
+			android:layout_margin="5dp"
+			android:textSize="20dp"
+			android:text="BeaconID:"
+			android:id="@+id/Beacontitle"
+			android:layout_below="@id/upload_Listview"
+			android:textColor="#000000">
+            
+            
+        </TextView>
+        <EditText 
+            android:layout_width="match_parent"
+		    android:layout_height="30dp"
+			
+			android:layout_margin="5dp"
+            android:hint="00:00:00:00:00:00"
+            android:id="@+id/beaconMac"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+           	android:layout_centerHorizontal="true"
+            android:maxLines="2"
+            android:layout_below="@id/Beacontitle"
+            android:background="#FFFFFF"
+           />
+       
+   		<CheckBox
+   		    android:layout_height="wrap_content"
+   		    android:layout_width="wrap_content"
+   		    android:id="@+id/isBeancon_Edit"
+   		    android:layout_below="@id/beaconMac"
+   		    android:layout_alignParentRight="true"
+			android:layout_marginRight="10dp"
+			android:text="Edit Beacon"
+			android:textColor="#808080"
+   		    />
+   		
+	 <LinearLayout
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="0.1" 
+	     android:orientation="horizontal"
+	     android:layout_marginBottom="10dp"
+	     android:layout_alignParentBottom="true"
+	     >
+        <Button
+             android:layout_width="0dp"
+    		android:layout_height="wrap_content"
+    		
+    		android:layout_centerVertical="true"
+    		android:text="CANCEL"
+    		android:layout_weight="0.1"
+    		android:id="@+id/connectCancel"
+            android:background="#008B8B"
+            android:layout_margin="10dp"
+            ></Button>
+        <Button
+             android:layout_width="0dp"
+    		android:layout_height="wrap_content"
+    		
+    		android:layout_centerVertical="true"
+    		android:text="SAVE"
+    		android:layout_weight="0.1"
+    		android:id="@+id/connectOK"
+    		android:background="#0ABAB5"
+    		android:layout_margin="10dp"
+            ></Button>
+    </LinearLayout>
+</RelativeLayout>

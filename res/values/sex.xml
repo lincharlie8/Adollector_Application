@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Sex">
+        <item>MEN</item>
+		<item>WOMEN</item>
+	</string-array>
+	
+	<array name="Sex_images">
+	    <item>@drawable/man</item>
+		<item>@drawable/woman</item>
+	</array>
+	
+	<array name="Sex_images_unclick">
+	    <item>@drawable/man_g</item>
+		<item>@drawable/woman_g</item>
+	</array>
+	<integer name="SexSum">2</integer>
+</resources>

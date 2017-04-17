@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="select">#0ABAB5</color>
+    <color name="unselect">#2f2f2f</color>
+    <color name="navbarcolor">#1C1C1C</color>
+    <color name="selectednavbarcolor">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="white">#ffffff</color>
+    
+    
+    <array name="clothColors">
+		<item>#FF0000</item>//紅
+		<item>#F28500</item>//橘
+		<item>#FFFF00</item>//黃
+		<item>#008000</item>//綠
+		<item>#0000FF</item>//藍
+		<item>#8B00FF</item>//紫
+		<item>#000000</item>//黑
+		<item>#FFFFFF</item>//白
+		<item>#808080</item>//灰
+		<item>#A52A2A</item>//褐
+		<item>#000000</item>//多彩(暫為黑)
+	</array>
+	
+	<string-array name="colorName">
+		<item>Red</item>
+		<item>Orange</item>
+		<item>Yellow</item>
+		<item>Green</item>
+		<item>Blue</item>
+		<item>Purple</item>
+		<item>Black</item>
+		<item>White</item>
+		<item>Gray</item>
+		<item>Brown</item>
+		<item>Multi</item>
+	</string-array>
+	<array name="color_images">
+		<item>@drawable/red</item>
+		<item>@drawable/orange</item>
+		<item>@drawable/yellow</item>
+		<item>@drawable/green</item>
+		<item>@drawable/blue</item>
+		<item>@drawable/purple</item>
+		<item>@drawable/black</item>
+		<item>@drawable/white</item>
+		<item>@drawable/gray</item>
+		<item>@drawable/brown</item>
+		<item>@drawable/colorful</item>
+	</array>
+	
+	<array name="color_images_unclick">
+		<item>@drawable/red_g</item>
+		<item>@drawable/orange_g</item>
+		<item>@drawable/yellow_g</item>
+		<item>@drawable/green_g</item>
+		<item>@drawable/blue_g</item>
+		<item>@drawable/purple_g</item>
+		<item>@drawable/black_g</item>
+		<item>@drawable/white_g</item>
+		<item>@drawable/gray_g</item>
+		<item>@drawable/brown_g</item>
+		<item>@drawable/colorful_g</item>
+	</array>
+	
+	<integer name="colorSum">11</integer>
+</resources>

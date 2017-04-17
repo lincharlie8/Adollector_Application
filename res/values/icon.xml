@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <array name="ColorIcon_id">
+		<item>@id/Color_All</item>
+		<item type="id">@id/Color1</item>
+		<item type="id" >@id/Color2</item>
+		<item type="id">@id/Color3</item>
+		<item type="id">@id/Color4</item>
+		<item type="id" >@id/Color5</item>
+		<item type="id" >@id/Color6</item>
+		<item type="id" >@id/Color7</item>
+		<item type="id" >@id/Color8</item>
+		<item type="id" >@id/Color9</item>
+		<item type="id" >@id/Color10</item>
+		<item type="id" >@id/Color11</item>
+	</array>
+		
+	<array name="BrandIcon_id">
+		<item type="id" >@id/Brand_All</item>
+		<item type="id" >@id/Brand1</item>
+		<item type="id" >@id/Brand2</item>
+		<item type="id" >@id/Brand3</item>
+		<item type="id" >@id/Brand4</item>
+		<item type="id" >@id/Brand5</item>
+		<item type="id" >@id/Brand6</item>
+		<item type="id" >@id/Brand7</item>
+		<item type="id" >@id/Brand8</item>
+		<item type="id" >@id/Brand9</item>
+		<item type="id" >@id/Brand10</item>
+		<item type="id" >@id/Brand11</item>
+		<item type="id" >@id/Brand12</item>
+		<item type="id" >@id/Brand13</item>
+		<item type="id" >@id/Brand14</item>
+		<item type="id" >@id/Brand15</item>
+		<item type="id" >@id/Brand16</item>
+		<item type="id" >@id/Brand17</item>
+	</array>
+	
+	 <array name="SexIcon_id">
+		<item type="id" >@id/Sex_All</item>
+		<item type="id" >@id/MAN</item>
+		<item type="id" >@id/WOMAN</item>
+	</array>
+	
+	 <array name="ClothKindIcon_id">
+		<item type="id" >@id/ClothKind_All</item>
+		<item type="id" >@id/ClothKind1</item>
+		<item type="id" >@id/ClothKind2</item>
+		<item type="id" >@id/ClothKind3</item>
+		<item type="id" >@id/ClothKind4</item>
+		<item type="id" >@id/ClothKind5</item>
+		<item type="id" >@id/ClothKind6</item>
+	 </array>
+	
+</resources>

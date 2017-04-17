@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000"
+    android:weightSum="2"
+    >
+   
+    <RelativeLayout
+        android:layout_width="match_parent"
+   		 android:layout_height="wrap_content"
+   		 android:layout_weight="0.001"
+   		 android:background="#0ABAB5">
+        
+       <ImageView 
+
+           android:layout_height="50dp"
+           android:layout_width="wrap_content"  
+        	  android:adjustViewBounds="true"
+           android:padding="8dp"
+          android:src="@drawable/titlelogo"
+        />
+            
+     
+   </RelativeLayout>
+         
+    <RelativeLayout
+      	  android:layout_width="match_parent"
+   		 android:layout_height="wrap_content"
+   		 android:layout_weight="0.7"
+   		 android:background="#72D3D1"
+   		 android:id="@+id/ADpictureLayout"
+        >
+    
+   		 <ImageView
+	        android:id="@+id/getPhotoPicture"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_margin="30dp"
+	        android:adjustViewBounds="true"
+	        android:src="@drawable/addpicture"
+	         ></ImageView>
+	   	<RelativeLayout
+	      	android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"	
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="10dp"
+			android:padding="30dp">	 
+	        <ImageView
+	            android:id="@+id/CreateAD"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="50dp"
+	            android:layout_centerHorizontal="true"
+				android:src="@drawable/create_ad_button"
+				android:adjustViewBounds="true"
+	 			/>
+	    </RelativeLayout>
+    </RelativeLayout>
+
+   
+
+</LinearLayout>

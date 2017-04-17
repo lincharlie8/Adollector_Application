@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" 
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp"
+    android:id="@+id/branditem_main_listview">
+    
+    
+    <ImageView 
+        android:id="@+id/branditem_img"
+        android:layout_height="58dp"
+        android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_alignParentLeft="true"
+        android:padding="2dp"
+        android:layout_marginRight="5dp"
+        
+        />
+    
+    
+    <TextView 
+        android:id="@+id/branditem_name_txt"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+		android:textSize="20dp"
+		android:layout_toRightOf="@id/branditem_img"
+		android:layout_alignParentTop="true"
+		android:textColor="#000000"
+        />
+     <TextView 
+        android:id="@+id/branditem_price_txt"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+		android:textSize="20dp"
+		android:layout_toRightOf="@id/branditem_img"
+		android:layout_below="@id/branditem_name_txt"
+		android:textColor="#000000"
+        />
+     
+     
+  
+  </RelativeLayout>

@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cmregister_parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:weightSum="3"
+  	
+    >
+    
+   
+    <!-- The main content view -->
+ 	
+    <LinearLayout
+        android:id="@+id/ofsearch_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+        
+    </LinearLayout>
+ 
+    <!-- The navigation drawer -->
+ 
+ 
+</LinearLayout>

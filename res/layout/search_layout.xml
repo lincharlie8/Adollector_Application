@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="horizontal" 
+    android:id="@+id/searchphoto">
+    
+  
+
+        <ImageView
+            android:id="@+id/searchphoto1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+
+            android:adjustViewBounds="true"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/searchphoto2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            />
+
+        <ImageView
+            android:id="@+id/searchphoto3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            />
+
+</LinearLayout>

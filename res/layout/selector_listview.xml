@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    
+	<RelativeLayout
+	    android:layout_width="0dp"
+	    android:layout_height="120dp"
+	    android:layout_weight="1">
+	    
+	        <ImageView
+        	android:id="@+id/selection_image_01"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:adjustViewBounds="true"
+        	android:layout_margin="10dp"
+		    ></ImageView>
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        	android:layout_height="30dp"
+		        	android:layout_below="@id/selection_image_01"
+		        >
+
+		        <TextView
+		            android:id="@+id/selection_txt_01"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerHorizontal="true"
+		            android:text=""
+		            android:textColor="#ffffff"
+		            android:textSize="10sp" >
+	</TextView>
+        
+    		</RelativeLayout>
+	    
+	</RelativeLayout>
+	<RelativeLayout
+	    android:layout_width="0dp"
+	    android:layout_height="120dp"
+	    android:layout_weight="1">
+	    
+	        <ImageView
+        	android:id="@+id/selection_image_02"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:adjustViewBounds="true"
+        	android:layout_margin="10dp"
+		    ></ImageView>
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        	android:layout_height="30dp"
+		        	android:layout_below="@id/selection_image_02"
+		        >
+		        <TextView
+		        	android:id="@+id/selection_txt_02"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:text=""
+		        	 android:textSize="10sp"
+		        	android:layout_centerHorizontal="true"
+		        	android:textColor="#ffffff"
+					        	
+		    ></TextView>
+        
+    		</RelativeLayout>
+	    
+	</RelativeLayout>
+	<RelativeLayout
+	    android:layout_width="0dp"
+	    android:layout_height="120dp"
+	    android:layout_weight="1">
+	    
+	        <ImageView
+        	android:id="@+id/selection_image_03"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	
+        	android:adjustViewBounds="true"
+        	android:layout_margin="10dp"
+		    ></ImageView>
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        	android:layout_height="30dp"
+		        	android:layout_below="@id/selection_image_03"
+		        >
+		        <TextView
+		        	android:id="@+id/selection_txt_03"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:text=""
+		        	 android:textSize="10sp"
+		        	android:layout_centerHorizontal="true"
+		        	android:textColor="#ffffff"
+					        	
+		    ></TextView>
+        
+    		</RelativeLayout>
+	    
+	</RelativeLayout>
+	<RelativeLayout
+	    android:layout_width="0dp"
+	    android:layout_height="120dp"
+	    android:layout_weight="1">
+	    
+	        <ImageView
+        	android:id="@+id/selection_image_04"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	
+        	android:adjustViewBounds="true"
+        	android:layout_margin="10dp"
+		    ></ImageView>
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        	android:layout_height="30dp"
+		        	android:layout_below="@id/selection_image_04"
+		        >
+		        <TextView
+		        	android:id="@+id/selection_txt_04"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:text=""
+		        	 android:textSize="10sp"
+		        	android:layout_centerHorizontal="true"
+		        	android:textColor="#ffffff"
+					        	
+		    ></TextView>
+        
+    		</RelativeLayout>
+	    
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:weightSum="1" 
+    android:background="#30808080"
+    android:id="@+id/messagedlg">
+
+
+  	 <Button
+            android:layout_width="30dp"
+    		android:layout_height="30dp"
+    		android:layout_centerVertical="true"
+    		
+    		android:text="X"
+    		android:layout_alignParentRight="true"
+    		android:layout_alignParentTop="true"
+    		android:id="@+id/messagecancel"
+            android:background="#008B8B"
+            android:padding="0dp"
+            android:layout_marginTop="5dp"
+            
+          ></Button>
+  	
+	<ListView
+	     android:id="@+id/message_Listview"
+	     android:layout_width="match_parent"
+	     android:layout_height="280dp"
+	     android:layout_alignParentRight="true"
+	     android:layout_alignParentTop="true"
+	     android:layout_marginLeft="10dp"
+	     android:layout_marginRight="10dp"
+	     android:layout_marginTop="40dp"
+	     android:background="#00808080"
+	     android:divider="#00808080"
+	     android:dividerHeight="1.0sp" 
+	     android:stackFromBottom="true"
+			android:transcriptMode="alwaysScroll">
+	 </ListView>
+		
+   		
+	 <LinearLayout
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="horizontal"
+	     android:layout_below="@id/message_Listview"
+	     android:layout_marginLeft="5dp"
+	     android:layout_marginRight="5dp"
+	     android:layout_marginTop="10dp"
+	     >
+       <EditText 
+           android:layout_width="0dp"
+           android:layout_height="30dp"
+           android:layout_weight="0.7"
+           android:textSize="20dp"
+           android:id="@+id/messageEdit"
+           android:layout_margin="5dp"
+           android:paddingLeft="5dp"
+           android:maxLines="30"
+           android:background="#ffffff"
+           android:textColor="#000000"
+           android:textCursorDrawable="@null" 
+           />
+                  <Button
+             android:layout_width="0dp"
+    		android:layout_height="40dp"
+    		android:layout_centerVertical="true"
+    		android:text="send"
+    		android:layout_weight="0.2"
+    		android:id="@+id/messageSend"
+    		android:background="#0ABAB5"
+    		android:layout_margin="5dp"
+    		android:textSize="15dp"
+            ></Button>
+    </LinearLayout>
+
+	 
+
+</RelativeLayout>

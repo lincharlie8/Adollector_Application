@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:weightSum="1" >
+
+   
+
+    
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1" 
+        android:padding="10dp">
+        
+        <TextView
+             android:layout_width="80dp"
+    		android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+    		android:text="N  a  m  e"
+    		android:textSize="15dp"
+    		android:id="@+id/txtNewName"
+    		android:textColor="#000000"
+    		
+            ></TextView>
+        <EditText 
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/txtNewName"
+			android:layout_centerVertical="true"
+            android:hint="Your NickName"
+            android:id="@+id/NewUserName"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:maxLines="20"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1" 
+        android:padding="10dp">
+        
+        <TextView
+            android:layout_width="80dp"
+    		android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+    		android:text="S   e   x "
+    		android:textSize="15dp" 
+    		android:id="@+id/txtNewSex"
+    		android:textColor="#000000"
+            ></TextView>
+        
+        
+         <RadioGroup
+		    android:id="@+id/SexRadiogroup"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/txtNewSex"
+		    android:orientation="horizontal"
+		    android:layout_centerVertical="true"
+		    >
+		    <RadioButton
+		        android:id="@+id/rdMale"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Male"
+		        android:checked="true"
+		        android:textColor="#1C1C1C"
+		        android:layout_marginLeft="10dp"
+		        ></RadioButton>
+		    <RadioButton
+		        android:id="@+id/rdFemale"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Female"
+		        android:textColor="#1C1C1C"
+		        android:layout_marginLeft="20dp"
+		        ></RadioButton>
+		   
+		
+			</RadioGroup>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1" 
+        android:padding="10dp">
+        
+        <TextView
+             android:layout_width="80dp"
+           android:textColor="#000000"
+    		android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+    		android:text="W e b s i t e" 
+    		android:textSize="15dp"
+    		android:id="@+id/txtNewBirth"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/NewUserBirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/txtNewBirth"
+            android:hint="Your Website"
+            android:inputType="number"
+            android:maxLines="100"
+            
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+      
+	<LinearLayout
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="0.1" 
+	     android:orientation="horizontal"
+	     android:layout_marginBottom="10dp"
+	     >
+        <Button
+             android:layout_width="0dp"
+    		android:layout_height="wrap_content"
+    		android:layout_margin="5dp"
+    		android:layout_centerVertical="true"
+    		android:text="CANCEL"
+    		android:layout_weight="0.1"
+    		android:id="@+id/createCancle"
+            android:background="#008B8B"
+            ></Button>
+        <Button
+             android:layout_width="0dp"
+    		android:layout_height="wrap_content"
+    		android:layout_margin="5dp"
+    		android:layout_centerVertical="true"
+    		android:text="CREATE"
+    		android:layout_weight="0.1"
+    		android:id="@+id/createOK"
+    		android:background="#0ABAB5"
+            ></Button>
+	</LinearLayout>
+</LinearLayout>

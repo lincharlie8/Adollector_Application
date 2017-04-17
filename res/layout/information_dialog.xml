@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgicon"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ad_icon" />
+    
+    <ScrollView
+         android:layout_width="match_parent"
+		 android:layout_height="150dp">
+	  	<LinearLayout
+	      android:layout_width="match_parent"
+		  android:layout_height="wrap_content"
+		  android:layout_marginLeft="10dp"
+		  android:layout_marginRight="10dp"
+		  android:layout_gravity="center" >
+	       <TextView
+		    android:id="@+id/txtshow"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="5dp"
+		    android:layout_marginLeft="10dp"
+		    android:layout_marginRight="10dp"
+		    android:layout_gravity="center"
+		    android:textColor="#808080"
+		    android:text="Adollector=AD + Collector\n有廣告收集者之意\n是否曾經走在路上看到他人的穿著，覺得非常喜歡，卻不清楚那項單品的資訊呢？\n我們提供這樣的服務讓使用者蒐集並分享自我廣告。\n我們以此想法為出發點來推出這項服務。"
+		    android:textSize="15sp" />
+	  	</LinearLayout>
+	  </ScrollView>
+	    
+	 
+    
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:text="返回"
+	    android:textSize="20sp" />
+    
+
+</LinearLayout>

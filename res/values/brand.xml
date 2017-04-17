@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="brandName">
+        <item>Adidas</item>
+		<item>ARMANI</item>
+		<item>ASOS</item>
+		<item>BOSS</item>
+		<item>Calvin Klein</item>
+		<item>DIESEL</item>
+		<item>GAP</item>
+		<item>GU</item>
+		<item>H&amp;M</item>
+		<item>HOLLISTER</item>
+		
+		<item>MUJI</item>
+		<item>NewBalance</item>
+		<item>NIKE</item>
+		<item>Stussy</item>
+		<item>SuperDry</item>
+		<item>UNIQLO</item>
+		<item>ZARA</item>	
+	</string-array>
+	<array name="brandkind_images">
+	    <item>@drawable/adidas</item>
+		<item>@drawable/armani</item>
+		<item>@drawable/asos</item>
+		<item>@drawable/boss</item>
+		<item>@drawable/calvinklein</item>
+		<item>@drawable/diesel</item>
+		<item>@drawable/gap</item>
+		<item>@drawable/gu</item>
+		<item>@drawable/hm</item>
+		<item>@drawable/hollister</item>
+		
+		<item>@drawable/muji</item>	
+		<item>@drawable/newbalance</item>
+		<item>@drawable/nike</item>
+		<item>@drawable/stussy</item>
+		<item>@drawable/superdry</item>
+		<item>@drawable/uniqlo</item>
+		<item>@drawable/zara</item>	
+		
+	</array>
+	
+	<array name="brandkind_unclick">
+	    <item>@drawable/adidas_g</item>
+		<item>@drawable/armani_g</item>
+		<item>@drawable/asos_g</item>
+		<item>@drawable/boss_g</item>
+		<item>@drawable/calvinklein_g</item>
+		<item>@drawable/diesel_g</item>
+		<item>@drawable/gap_g</item>
+		<item>@drawable/gu_g</item>
+		<item>@drawable/hm_g</item>
+		<item>@drawable/hollister_g</item>
+		
+		<item>@drawable/muji_g</item>
+		<item>@drawable/newbalance_g</item>
+		<item>@drawable/nike_g</item>
+		<item>@drawable/stussy_g</item>
+		<item>@drawable/superdry_g</item>
+		<item>@drawable/uniqlo_g</item>
+		<item>@drawable/zara_g</item>	
+			
+	</array>
+	<integer name="brandSum">17</integer>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customerX"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum = "1"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    
+    <RelativeLayout
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp" >
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+       
+        android:textColor="#007474"
+        android:textSize="15sp" >
+    </TextView>
+    
+     <TextView
+         android:id="@+id/usersex"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:gravity="center"
+         
+         android:textColor="#007474"
+         android:textSize="15sp" >
+    </TextView>
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/cmmain_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="0.1"
+    android:background="#FFFFFF" >
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+         >
+	</ImageView>
+	<ImageView
+        android:id="@+id/likeButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:layout_alignParentRight="true"
+        
+         >
+	</ImageView>
+	<ImageView
+        android:id="@+id/messageButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+		android:src="@drawable/message"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70dp"
+         >
+	</ImageView>
+    <RelativeLayout
+        android:id="@+id/info_layout"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+       	
+        android:background="@drawable/windows"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        
+        android:layout_alignParentRight="true">
+        
+        <TextView
+            android:layout_centerHorizontal="true"
+        android:id="@+id/info_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:textAlignment="2"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        >
+         </TextView>
+         
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/shop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/shop" >
+        </ImageView>
+         
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/barbode"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_layout"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/info_layout"
+        android:layout_alignRight="@+id/info_layout"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/coupon_button" />
+    
+</RelativeLayout>
+
+<HorizontalScrollView
+    android:id="@+id/icon_width"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:layout_weight="0.2"
+    android:background="#FFFFFF"
+    >
+        <LinearLayout
+            android:id="@+id/logo_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp"
+            >
+        </LinearLayout>
+</HorizontalScrollView>
+</LinearLayout>
